@@ -140,10 +140,7 @@ public:
             std::reverse(temp.begin(), temp.end());
             for (int i=0;i<j;++i) temp.push_back(0);
             big_integer B;
-            B.data = temp;
-            std::cout << std::endl;
-            B.print_big_integer();
-            std::cout << std::endl;
+            B.data = temp;            
             A = A + B;
             
             ++j;
